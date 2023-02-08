@@ -17,3 +17,6 @@ const ReduxState = createSlice({
 export const {LoginUser} = ReduxState.actions;
 
 export default ReduxState.reducer;
+
+
+/*to read you will use useSelector , then to retriveve you will use useDispatch */
