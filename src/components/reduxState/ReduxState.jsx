@@ -1,9 +1,19 @@
-import React from 'react'
+import { createSlice } from "@reduxjs/toolkit";
 
-const ReduxState = () => {
-  return (
-    <div>ReduxState</div>
-  )
-}
+const initialState = {
+  current: null,
+};
 
-export default ReduxState
+const ReduxState = createSlice({
+  name: "users",
+  initialState,
+  reducers: {
+    LoginUser: (state, actions) => {
+      state.current = actions.payload;
+    },
+  },
+});
+
+export const {LoginUser} = ReduxState.actions;
+
+export default ReduxState.reducer;
