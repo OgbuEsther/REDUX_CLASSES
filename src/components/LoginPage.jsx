@@ -10,10 +10,10 @@ const LoginPage = () => {
         onClick={() => {
           dispatch(
             LoginUser({
-              username: "esther",
+              username: "Delight",
               age: 20,
-              email: "1234@gmail.com",
-              stack: "MERN",
+              email: "delight@gmail.com",
+              stack: "fullstack",
             })
           );
         }}
