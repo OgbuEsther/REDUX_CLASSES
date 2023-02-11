@@ -1,8 +1,8 @@
 import "./App.css";
 import LoginPage from "./components/LoginPage";
 import Profile from "./components/Profile";
-// import MyProfile from "../src/practice/MyProfile"
-// import Login from "./practice/Login"
+// import MyProfile from "../src/practice/MyProfile";
+// import Login from "./practice/Login";
 
 function App() {
   return (
